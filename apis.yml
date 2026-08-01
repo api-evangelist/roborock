@@ -1,7 +1,28 @@
 aid: roborock
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/roborock.png
 name: Roborock
-description: 'Roborock is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. Sector: robotics. This profile is a lead awaiting the enrichment pipeline.'
+description: >-
+  Roborock is a global consumer robotics company best known for its robot
+  vacuum and mop cleaners, wet/dry wash-and-fill floor washers, and connected
+  home-cleaning appliances controlled through the Roborock mobile app. Founded
+  in 2014 and headquartered in Beijing, the company was surfaced in the API
+  Evangelist network as a portfolio company of Qiming Venture Partners. Roborock
+  operates a private cloud that backs its consumer mobile app but publishes no
+  public developer API, developer portal, OpenAPI specification, or SDK program.
+  It does operate a public Trust Center documenting the security and privacy
+  design of its IoT products, including TÜV Rheinland EN 303 645 and UL Diamond
+  IoT Security certifications.
 url: https://raw.githubusercontent.com/api-evangelist/roborock/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,10 +32,14 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Robotics
+- Robot Vacuum
+- Consumer IoT
+- Smart Home
+- Home Appliances
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +49,22 @@ maintainers:
 common:
 - type: Website
   url: https://roborock.com
+- type: Support
+  url: https://help.roborock.com/en-US
+- type: Blog
+  url: https://newsroom.roborock.com/us/
+- type: PrivacyPolicy
+  url: https://us.roborock.com/pages/privacy-policy
+- type: TermsOfService
+  url: https://us.roborock.com/pages/user-agreement
+- type: TrustCenter
+  url: security/roborock-trust-center.yml
+- type: Compliance
+  url: https://us.roborock.com/pages/roborock-trust-center
+- type: DomainSecurity
+  url: security/roborock-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1

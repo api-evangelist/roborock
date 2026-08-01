@@ -1,0 +1,22 @@
+generated: '2026-07-21'
+method: searched
+source: https://us.roborock.com/pages/roborock-trust-center
+url: https://us.roborock.com/pages/roborock-trust-center
+scope: consumer-iot-product-security
+certifications:
+- name: TÜV Rheinland IoT Security & Data Privacy Certified (EN 303 645)
+  standard: ETSI EN 303 645
+  authority: TÜV Rheinland
+- name: UL Diamond IoT Security Rating
+  authority: UL Solutions
+compliance_referenced:
+- GDPR
+notes: >-
+  Roborock's Trust Center covers data security and privacy design for its
+  robotic vacuum products (hardware SoC with tamper-resistant certificates,
+  TLS / SRTP / DTLS encryption, data minimization, camera/microphone privacy).
+  These are consumer-IoT product certifications, not enterprise SOC 2 / ISO 27001.
+  Actual practices vary by product model.
+evidence:
+- source: https://us.roborock.com/pages/roborock-trust-center
+  keywords: [tuv rheinland, en 303 645, ul diamond iot security rating, trust center, gdpr]
