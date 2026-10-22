@@ -19,21 +19,31 @@ edges:
     identity_source: vendorLandingPageURL
     matched_domain: roborock.com
     matched_by: domain
-    certified_models: 1
+    certified_models: 24
     certified_products:
     - product: Robotic Vacuum Cleaner
       device_type_id: 116
       models: 1
       revoked_models: 0
-      latest_certification: '2024-03-27'
+      latest_certification: '2025-02-20'
       transports:
       - wi-fi
       examples:
       - Robotic Vacuum Cleaner
       lapsed: false
+    - product: unspecified device type
+      device_type_id: null
+      models: 23
+      revoked_models: 0
+      latest_certification: '2025-12-09'
+      transports:
+      - bluetooth
+      - wi-fi
+      examples: null
+      lapsed: false
     signal_note: certified_products = one entry per device type (diversity), not per model
     detected_by: sweep-iot.py
-    detected: '2026-10-14'
+    detected: '2026-10-19'
 generated: '2026-10-14'
 method: searched
 checked:
